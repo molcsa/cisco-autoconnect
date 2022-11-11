@@ -15,6 +15,8 @@ Yes, if you have an AnyConnect version with this GUI:
 Tested with version: 4.10.04071
 
 ## How to use it?
+There are 2 versions of the script in the repo: compiled and uncompiled. Both has the same code, and you can open and run both in the _Scipt Editor_. The uncompiled version however can also be opened in any text editor or IDE for better comfort.
+
 First you have to add your VPN password to the _Login > Passwords_ keychain in _Keychain Access_.
 
 Then you have to modify the variables in the script to match your purpose (for help check the comments). 
@@ -37,7 +39,7 @@ Short guide:
 - workflow receives `No input` in `any application`
 - you can set image and colour for whatever you like (they will show on the Touch bar)
 - add a `Run Applescript` block to the editor
-- copy the contents of this script file to the editor
+- copy the Applescript code to the editor
 - name and save the Quick action
 
 To set a keyboard shortcut go to `System Settings > Keyboard > Keyboard Shurtcuts > Services > General` on Ventura or `System Preferences > Keyboard > Shortcuts > Services > General` on older MacOS versions, click the action and `Add shortcut`.
