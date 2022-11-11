@@ -10,7 +10,7 @@ The script opens up AnyConnect, extracts your VPN password from your _Keychain_,
 ## Can I use it?
 Yes, if you have an AnyConnect version with this GUI:
 
-![GUI](/screenshots/gui.jpg?raw=true)
+<img src="/screenshots/gui.jpg" alt="GUI" width="400"/>
 
 Tested with version: 4.10.04071
 
@@ -44,11 +44,11 @@ To set a keyboard shortcut go to `System Settings > Keyboard > Keyboard Shurtcut
 
 To add the action to the touch bar refer to [this guide](https://support.apple.com/en-lk/guide/automator/aut73234890a/mac).
 
-Finally go to `System Settings > Privacy & Security > Accessibility` on Ventura or to `System Preferences > Security > Privacy > Accessibility` on older MacOS versions, and enable the corresponding apps of your method to run the script to avoid errors.
+Finally go to `System Settings > Privacy & Security > Accessibility` on Ventura or to `System Preferences > Security > Privacy > Accessibility` on older MacOS versions, and enable the corresponding apps of your method to run the script, to avoid errors.
 
 ## How to make it even more comfortable?
 Enable the _Start VPN when AnyConnect is started_ option in the Cisco AnyConnect Preferences window. This way the Connect window will appear after application startup, so the connection process will be fully automatic (if you run the script when the application is currently not running). 
-If the app is already running, you have to manually click to the Connect button in the AnyConnect main window after you ran the script. 
+If the app is already running, you have to manually click on the Connect button in the AnyConnect main window after you ran the script. 
 There is a 15 seconds timeout, if the Connect window doesn't appear in this time, the script terminates.
 
-![Preferences](/screenshots/preferences.jpg?raw=true)
+<img src="/screenshots/preferences.jpg" alt="Preferences" width="400"/>
