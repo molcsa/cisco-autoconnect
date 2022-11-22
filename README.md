@@ -49,8 +49,10 @@ To add the action to the touch bar refer to [this guide](https://support.apple.c
 Finally go to `System Settings > Privacy & Security > Accessibility` on Ventura or to `System Preferences > Security > Privacy > Accessibility` on older MacOS versions, and enable the corresponding apps of your method to run the script, to avoid errors.
 
 ## How to make it even more comfortable?
-Enable the _Start VPN when AnyConnect is started_ option in the Cisco AnyConnect Preferences window. This way the Connect window will appear after application startup, so the connection process will be fully automatic (if you run the script when the application is currently not running). 
-If the app is already running, you have to manually click on the Connect button in the AnyConnect main window after you ran the script. 
+Enable the _Start VPN when AnyConnect is started_ option in the Cisco AnyConnect Preferences window. This way the Connect window will appear after application startup, so the connection process will be fully automatic.
+
+If you don't set this setting then you have to manually click on the Connect button in the AnyConnect main window after you run the script. 
+
 There is a 15 seconds timeout, if the Connect window doesn't appear in this time, the script terminates.
 
 <img src="/screenshots/preferences.jpg" alt="Preferences" width="400"/>
